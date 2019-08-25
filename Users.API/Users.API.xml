@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Users.API</name>
+    </assembly>
+    <members>
+        <member name="M:Users.API.Controllers.UsersController.#ctor(Users.API.DataServices.IUsersRepository,AutoMapper.IMapper)">
+            <summary>
+            ctor
+            </summary>
+            <param name="repository"></param>
+        </member>
+        <member name="M:Users.API.Controllers.UsersController.GetUser(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Users.API.Controllers.UsersController.AddUser(Users.API.Model.UserForCreation)">
+            <summary>
+            
+            </summary>
+            <param name="userToAdd"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Users.API.Controllers.UsersController.Authenticate(Users.API.Model.UserForAuthentication)">
+            <summary>
+            Authenticates a registered user.
+            </summary>
+            <param name="userCreds">User Credentials</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
